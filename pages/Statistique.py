@@ -407,9 +407,6 @@ class taskManager:
     def repartition_priorite1(self):
         #verifier l'existence des tasks
         data = Storage_Manager.charger_donner()
-        if not self.tasks:
-            print("Aucune tâche à visualiser")
-            return
         list_priorite = dict(data["Priorite"].value_counts())
         labels_priorite = [i for i in list_priorite.keys()]
         valeurs_priorite = [i for i in list_priorite.values()]
@@ -423,9 +420,6 @@ class taskManager:
     def repartition_categorie1(self):
         #verifier l'existence des tasks
         data = Storage_Manager.charger_donner()
-        if not self.tasks:
-            print("Aucune tâche à visualiser")
-            return
         list_categorie = dict(data["Categorie"].value_counts())
         labels = [i for i in list_categorie.keys()]
         valeurs = [i for i in list_categorie.values()] 
@@ -434,9 +428,6 @@ class taskManager:
     def terminées_vs_À_faire1(self):
         #verifier l'existence des tasks
         data = Storage_Manager.charger_donner()
-        if not self.tasks:
-            print("Aucune tâche à visualiser")
-            return
         nb_terminees = sum(data['Statut']=="Terminé")
         nb_a_faire = sum(data['Statut']=="À faire")
         statuts = ['Terminé', 'À faire']
@@ -449,9 +440,6 @@ class taskManager:
     def nbr_taches_par_statut_et_priorité1(self):
         #verifier l'existence des tasks
         data = Storage_Manager.charger_donner()
-        if not self.tasks:
-            print("Aucune tâche à visualiser")
-            return
         pivot = data.groupby(['Priorite', 'Statut']).size().reset_index(name='Nombre')
 
         fig = px.bar(
