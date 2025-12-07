@@ -1,0 +1,265 @@
+ID,Titre,Description,Date_echeance,Priorite,Categorie,Statut
+git git 9,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+10,sport,gym,2025-12-04,faible,santé,À faire
+11,sport,gym,2025-10-06,faible,santé,À faire
+12,Réviser,Math,2025-12-01,élevé,études,Terminé
+13,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+14,sport,gym,2025-12-04,faible,santé,À faire
+15,sport,gym,2025-10-06,faible,santé,À faire
+16,Réviser,Math,2025-12-01,élevé,études,Terminé
+17,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+18,sport,gym,2025-12-04,faible,santé,À faire
+19,sport,gym,2025-10-06,faible,santé,À faire
+20,Réviser,Math,2025-12-01,élevé,études,Terminé
+21,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+22,sport,gym,2025-12-04,faible,santé,À faire
+23,sport,gym,2025-10-06,faible,santé,À faire
+24,Réviser,Math,2025-12-01,élevé,études,Terminé
+25,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+26,sport,gym,2025-12-04,faible,santé,À faire
+27,sport,gym,2025-10-06,faible,santé,À faire
+28,Réviser,Math,2025-12-01,élevé,études,Terminé
+29,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+30,sport,gym,2025-12-04,faible,santé,À faire
+31,sport,gym,2025-10-06,faible,santé,À faire
+32,Réviser,Math,2025-12-01,élevé,études,Terminé
+33,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+34,sport,gym,2025-12-04,faible,santé,À faire
+35,sport,gym,2025-10-06,faible,santé,À faire
+36,Réviser,Math,2025-12-01,élevé,études,Terminé
+37,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+38,sport,gym,2025-12-04,faible,santé,À faire
+39,sport,gym,2025-10-06,faible,santé,À faire
+40,Réviser,Math,2025-12-01,élevé,études,Terminé
+41,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+42,sport,gym,2025-12-04,faible,santé,À faire
+43,sport,gym,2025-10-06,faible,santé,À faire
+44,Réviser,Math,2025-12-01,élevé,études,Terminé
+45,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+46,sport,gym,2025-12-04,faible,santé,À faire
+47,sport,gym,2025-10-06,faible,santé,À faire
+48,Réviser,Math,2025-12-01,élevé,études,Terminé
+49,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+50,sport,gym,2025-12-04,faible,santé,À faire
+51,sport,gym,2025-10-06,faible,santé,À faire
+52,Réviser,Math,2025-12-01,élevé,études,Terminé
+53,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+54,sport,gym,2025-12-04,faible,santé,À faire
+55,sport,gym,2025-10-06,faible,santé,À faire
+56,Réviser,Math,2025-12-01,élevé,études,Terminé
+57,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+58,sport,gym,2025-12-04,faible,santé,À faire
+59,sport,gym,2025-10-06,faible,santé,À faire
+60,Réviser,Math,2025-12-01,élevé,études,Terminé
+61,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+62,sport,gym,2025-12-04,faible,santé,À faire
+63,sport,gym,2025-10-06,faible,santé,À faire
+64,Réviser,Math,2025-12-01,élevé,études,Terminé
+65,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+66,sport,gym,2025-12-04,faible,santé,À faire
+67,sport,gym,2025-10-06,faible,santé,À faire
+68,Réviser,Math,2025-12-01,élevé,études,Terminé
+69,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+70,sport,gym,2025-12-04,faible,santé,À faire
+71,sport,gym,2025-10-06,faible,santé,À faire
+72,Réviser,Math,2025-12-01,élevé,études,Terminé
+73,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+74,sport,gym,2025-12-04,faible,santé,À faire
+75,sport,gym,2025-10-06,faible,santé,À faire
+76,Réviser,Math,2025-12-01,élevé,études,Terminé
+77,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+78,sport,gym,2025-12-04,faible,santé,À faire
+79,sport,gym,2025-10-06,faible,santé,À faire
+80,Réviser,Math,2025-12-01,élevé,études,Terminé
+81,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+82,sport,gym,2025-12-04,faible,santé,À faire
+83,sport,gym,2025-10-06,faible,santé,À faire
+84,Réviser,Math,2025-12-01,élevé,études,Terminé
+85,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+86,sport,gym,2025-12-04,faible,santé,À faire
+87,sport,gym,2025-10-06,faible,santé,À faire
+88,Réviser,Math,2025-12-01,élevé,études,Terminé
+89,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+90,sport,gym,2025-12-04,faible,santé,À faire
+91,sport,gym,2025-10-06,faible,santé,À faire
+92,Réviser,Math,2025-12-01,élevé,études,Terminé
+93,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+94,sport,gym,2025-12-04,faible,santé,À faire
+95,sport,gym,2025-10-06,faible,santé,À faire
+96,Réviser,Math,2025-12-01,élevé,études,Terminé
+97,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+98,sport,gym,2025-12-04,faible,santé,À faire
+99,sport,gym,2025-10-06,faible,santé,À faire
+100,Réviser,Math,2025-12-01,élevé,études,Terminé
+101,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+102,sport,gym,2025-12-04,faible,santé,À faire
+103,sport,gym,2025-10-06,faible,santé,À faire
+104,Réviser,Math,2025-12-01,élevé,études,Terminé
+105,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+106,sport,gym,2025-12-04,faible,santé,À faire
+107,sport,gym,2025-10-06,faible,santé,À faire
+108,Réviser,Math,2025-12-01,élevé,études,Terminé
+109,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+110,sport,gym,2025-12-04,faible,santé,À faire
+111,sport,gym,2025-10-06,faible,santé,À faire
+112,Réviser,Math,2025-12-01,élevé,études,Terminé
+113,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+114,sport,gym,2025-12-04,faible,santé,À faire
+115,sport,gym,2025-10-06,faible,santé,À faire
+116,Réviser,Math,2025-12-01,élevé,études,Terminé
+117,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+118,sport,gym,2025-12-04,faible,santé,À faire
+119,sport,gym,2025-10-06,faible,santé,À faire
+120,Réviser,Math,2025-12-01,élevé,études,Terminé
+121,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+122,sport,gym,2025-12-04,faible,santé,À faire
+123,sport,gym,2025-10-06,faible,santé,À faire
+124,Réviser,Math,2025-12-01,élevé,études,Terminé
+125,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+126,sport,gym,2025-12-04,faible,santé,À faire
+127,sport,gym,2025-10-06,faible,santé,À faire
+128,Réviser,Math,2025-12-01,élevé,études,Terminé
+129,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+130,sport,gym,2025-12-04,faible,santé,À faire
+131,sport,gym,2025-10-06,faible,santé,À faire
+132,Réviser,Math,2025-12-01,élevé,études,Terminé
+133,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+134,sport,gym,2025-12-04,faible,santé,À faire
+135,sport,gym,2025-10-06,faible,santé,À faire
+136,Réviser,Math,2025-12-01,élevé,études,Terminé
+137,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+138,sport,gym,2025-12-04,faible,santé,À faire
+139,sport,gym,2025-10-06,faible,santé,À faire
+140,Réviser,Math,2025-12-01,élevé,études,Terminé
+141,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+142,sport,gym,2025-12-04,faible,santé,À faire
+143,sport,gym,2025-10-06,faible,santé,À faire
+144,Réviser,Math,2025-12-01,élevé,études,Terminé
+145,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+146,sport,gym,2025-12-04,faible,santé,À faire
+147,sport,gym,2025-10-06,faible,santé,À faire
+148,Réviser,Math,2025-12-01,élevé,études,Terminé
+149,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+150,sport,gym,2025-12-04,faible,santé,À faire
+151,sport,gym,2025-10-06,faible,santé,À faire
+152,Réviser,Math,2025-12-01,élevé,études,Terminé
+153,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+154,sport,gym,2025-12-04,faible,santé,À faire
+155,sport,gym,2025-10-06,faible,santé,À faire
+156,Réviser,Math,2025-12-01,élevé,études,Terminé
+157,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+158,sport,gym,2025-12-04,faible,santé,À faire
+159,sport,gym,2025-10-06,faible,santé,À faire
+160,Réviser,Math,2025-12-01,élevé,études,Terminé
+161,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+162,sport,gym,2025-12-04,faible,santé,À faire
+163,sport,gym,2025-10-06,faible,santé,À faire
+164,Réviser,Math,2025-12-01,élevé,études,Terminé
+165,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+166,sport,gym,2025-12-04,faible,santé,À faire
+167,sport,gym,2025-10-06,faible,santé,À faire
+168,Réviser,Math,2025-12-01,élevé,études,Terminé
+169,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+170,sport,gym,2025-12-04,faible,santé,À faire
+171,sport,gym,2025-10-06,faible,santé,À faire
+172,Réviser,Math,2025-12-01,élevé,études,Terminé
+173,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+174,sport,gym,2025-12-04,faible,santé,À faire
+175,sport,gym,2025-10-06,faible,santé,À faire
+176,Réviser,Math,2025-12-01,élevé,études,Terminé
+177,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+178,sport,gym,2025-12-04,faible,santé,À faire
+179,sport,gym,2025-10-06,faible,santé,À faire
+180,Réviser,Math,2025-12-01,élevé,études,Terminé
+181,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+182,sport,gym,2025-12-04,faible,santé,À faire
+183,sport,gym,2025-10-06,faible,santé,À faire
+184,Réviser,Math,2025-12-01,élevé,études,Terminé
+185,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+186,sport,gym,2025-12-04,faible,santé,À faire
+187,sport,gym,2025-10-06,faible,santé,À faire
+188,Réviser,Math,2025-12-01,élevé,études,Terminé
+189,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+190,sport,gym,2025-12-04,faible,santé,À faire
+191,sport,gym,2025-10-06,faible,santé,À faire
+192,Réviser,Math,2025-12-01,élevé,études,Terminé
+193,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+194,sport,gym,2025-12-04,faible,santé,À faire
+195,sport,gym,2025-10-06,faible,santé,À faire
+196,Réviser,Math,2025-12-01,élevé,études,Terminé
+197,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+198,sport,gym,2025-12-04,faible,santé,À faire
+199,sport,gym,2025-10-06,faible,santé,À faire
+200,Réviser,Math,2025-12-01,élevé,études,Terminé
+201,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+202,sport,gym,2025-12-04,faible,santé,À faire
+203,sport,gym,2025-10-06,faible,santé,À faire
+204,Réviser,Math,2025-12-01,élevé,études,Terminé
+205,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+206,sport,gym,2025-12-04,faible,santé,À faire
+207,sport,gym,2025-10-06,faible,santé,À faire
+208,Réviser,Math,2025-12-01,élevé,études,Terminé
+209,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+210,sport,gym,2025-12-04,faible,santé,À faire
+211,sport,gym,2025-10-06,faible,santé,À faire
+212,Réviser,Math,2025-12-01,élevé,études,Terminé
+213,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+214,sport,gym,2025-12-04,faible,santé,À faire
+215,sport,gym,2025-10-06,faible,santé,À faire
+216,Réviser,Math,2025-12-01,élevé,études,Terminé
+217,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+218,sport,gym,2025-12-04,faible,santé,À faire
+219,sport,gym,2025-10-06,faible,santé,À faire
+220,Réviser,Math,2025-12-01,élevé,études,Terminé
+221,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+222,sport,gym,2025-12-04,faible,santé,À faire
+223,sport,gym,2025-10-06,faible,santé,À faire
+224,Réviser,Math,2025-12-01,élevé,études,Terminé
+225,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+226,sport,gym,2025-12-04,faible,santé,À faire
+227,sport,gym,2025-10-06,faible,santé,À faire
+228,Réviser,Math,2025-12-01,élevé,études,Terminé
+229,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+230,sport,gym,2025-12-04,faible,santé,À faire
+231,sport,gym,2025-10-06,faible,santé,À faire
+232,Réviser,Math,2025-12-01,élevé,études,Terminé
+233,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+234,sport,gym,2025-12-04,faible,santé,À faire
+235,sport,gym,2025-10-06,faible,santé,À faire
+236,Réviser,Math,2025-12-01,élevé,études,Terminé
+237,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+238,sport,gym,2025-12-04,faible,santé,À faire
+239,sport,gym,2025-10-06,faible,santé,À faire
+240,Réviser,Math,2025-12-01,élevé,études,Terminé
+241,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+242,sport,gym,2025-12-04,faible,santé,À faire
+243,sport,gym,2025-10-06,faible,santé,À faire
+240,Réviser,Math,2025-12-01,élevé,études,Terminé
+244,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+245,sport,gym,2025-12-04,faible,santé,À faire
+246,sport,gym,2025-10-06,faible,santé,À faire
+240,Réviser,Math,2025-12-01,élevé,études,Terminé
+247,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+248,sport,gym,2025-12-04,faible,santé,À faire
+249,sport,gym,2025-10-06,faible,santé,À faire
+250,Réviser,Math,2025-12-01,élevé,études,Terminé
+251,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+252,sport,gym,2025-12-04,faible,santé,À faire
+253,sport,gym,2025-10-06,faible,santé,À faire
+254,Réviser,Math,2025-12-01,élevé,études,Terminé
+255,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+256,sport,gym,2025-12-04,faible,santé,À faire
+257,sport,gym,2025-10-06,faible,santé,À faire
+258,Réviser,Math,2025-12-01,élevé,études,Terminé
+259,Courses,Légumes,2025-10-27,moyenne,personnel,À faire
+260,sport,gym,2025-12-04,faible,santé,À faire
+261,sport,gym,2025-10-06,faible,santé,À faire
+262,révision,ta3bouni jme3a,2025-12-05,élevé,travail,À faire
+263,hmaida,ali,2025-12-05,élevé,personnel,À faire
+264,Projet Python,"faire une application de gestion des taches, et ajouter une interface",2025-12-11,élevé,travail,À faire
+265,Projet Python,faire une application de gestion des taches,2025-12-08,élevé,travail,À faire
+266,Projet Python,faire une application de gestion des tâches,2025-12-08,élevé,travail,À faire
+267,Projet Python,faire une application de gestion des tâches,2025-12-08,élevé,travail,À faire
+268,Projet python,Faire une application de gestion des tâches,2025-12-08,élevé,travail,À faire
+269,Projet python,Faire une application de gestion des tâches,2025-12-08,élevé,travail,À faire
+270,Projet python,faire une application de gestion des tâches,2025-12-08,élevé,travail,À faire
