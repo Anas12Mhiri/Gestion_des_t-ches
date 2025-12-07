@@ -196,8 +196,6 @@ class taskManager:
             print(f"Erreur lors de l’affichage des tâches : {e}")    
     def modifier_tache(self,i,mod,m):
         t=self.rechercher_par_id(i)
-        
-            return
         if mod=="Titre": 
             t.titre=m
         elif mod=="Date_echeance":
