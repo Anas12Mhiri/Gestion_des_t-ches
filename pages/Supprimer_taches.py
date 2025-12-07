@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
 class Storage_Manager:
-    path_fichier="pages/.csv"
+    path_fichier="pages/taches.csv"
     @classmethod
     def sauvegarder(cls, tache):
         try:
