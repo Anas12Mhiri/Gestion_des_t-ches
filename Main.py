@@ -173,9 +173,9 @@ class taskManager:
         return pd.DataFrame(result)
     
     def afficher_taches(self, tri="Date_echeance"):
-        if not self.tasks:
+        """if not self.tasks:
             print("Aucune tâche disponible")
-            return pd.DataFrame()
+            return pd.DataFrame()"""
         try:
             if tri == "Date_echeance":
                 s= sorted(self.tasks, key=lambda t: t.date_echeance)
