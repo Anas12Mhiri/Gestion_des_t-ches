@@ -481,7 +481,7 @@ class taskManager:
 m=taskManager()
 
 #visualisation du data
-file = "E:\\anas\\Ingenierie\\Streamlit-tutorial\\pages\\taches.csv"
+file = "pages/taches.csv"
 if file is not None:
     data = pd.read_csv(file)
     columns_to_show = st.multiselect("Select columns to show", data.columns.to_list(), default=data.columns.to_list())
