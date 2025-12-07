@@ -499,7 +499,7 @@ data = m.afficher_taches(taches_afficher)
 #st.write(data.loc[:,data.columns !="id"])
 if taches_afficher:  # Check if something was selected
     data = m.afficher_taches(taches_afficher)
-    st.write(data[:, data.columns != "id"])
+    st.write(data.loc[:, data.columns != "id"])
 else:
     st.warning("Veuillez sélectionner une tâche")
 
