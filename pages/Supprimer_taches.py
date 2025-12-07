@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
 class Storage_Manager:
-    path_fichier="pages/taches.csv"
+    path_fichier="pages/.csv"
     @classmethod
     def sauvegarder(cls, tache):
         try:
@@ -65,9 +65,9 @@ class Storage_Manager:
             print(f"Erreur lors du chargement des données : {e}")
 def generer_id_suivant():
     try:
-        if not os.path.exists("pages/taches.csv") or os.path.getsize("pages/taches.csv") == 0:
+        if not os.path.exists("pages/.csv") or os.path.getsize("pages/.csv") == 0:
             return 1
-        data = pd.read_csv("pages/taches.csv")
+        data = pd.read_csv("pages/.csv")
         if data.empty or "ID" not in data.columns:
             return 1
         ctr = max(data["ID"])
@@ -122,8 +122,8 @@ class taskManager:
     def __init__(self):
             self.storage = Storage_Manager.charger_donner()
             self.tasks = []
-            self.charger_toutes_taches()
-    def charger_toutes_taches(self):
+            self.charger_toutes_()
+    def charger_toutes_(self):
         try:
             data = self.storage
             if data is None:
@@ -158,7 +158,7 @@ class taskManager:
         result = [i for i in self.tasks if i.priorite.lower() == t.lower()]
         return pd.DataFrame(result)
     
-    def afficher_taches(self, tri="Date_echeance"):
+    def afficher_(self, tri="Date_echeance"):
         if not self.tasks:
             print("Aucune tâche disponible")
             return
@@ -174,12 +174,12 @@ class taskManager:
             else:
                 s = self.tasks
             print(f"la liste des tâches tri par {tri}:")
-            liste_taches = []
+            liste_ = []
             for t in s:
                 print(t.titre, t.description, t.date_echeance, t.priorite, t.categorie)
-                liste_taches.append(vars(t))
-            print("affichage",liste_taches)
-            return pd.DataFrame(liste_taches)
+                liste_.append(vars(t))
+            print("affichage",liste_)
+            return pd.DataFrame(liste_)
         except Exception as e:
             print(f"Erreur lors de l’affichage des tâches : {e}")    
     def modifier_tache(self,i,mod,m):
@@ -285,23 +285,23 @@ class taskManager:
     
     def tache_echeance_aujourdhui(self):
         today = date.today()
-        taches = [t for t in self.tasks if t.date_echeance==today and t.statut!="Terminé"]
-        if not taches:
+         = [t for t in self.tasks if t.date_echeance==today and t.statut!="Terminé"]
+        if not :
             print("aucune tache n'echoit aujourd'hui")
         else:
-            print(f"{len(taches)} taches echeent aujourd'hui")    
+            print(f"{len()}  echeent aujourd'hui")    
     
     def statistique(self):
         data = self.storage
-        #nbre total des taches
-        nbr_taches = len(data)
-        print("Total :",nbr_taches)
+        #nbre total des 
+        nbr_ = len(data)
+        print("Total :",nbr_)
         #nbre des tâches terminer
-        nbr_taches_terminer = sum(data["Statut"]=="Terminé")
-        print("Terminées : ",nbr_taches_terminer)
+        nbr__terminer = sum(data["Statut"]=="Terminé")
+        print("Terminées : ",nbr__terminer)
         #nbre des tâches à faire
-        nbr_taches_afaire = sum(data["Statut"]=="À faire")
-        print("À faire : ",nbr_taches_afaire)
+        nbr__afaire = sum(data["Statut"]=="À faire")
+        print("À faire : ",nbr__afaire)
         #répartition par catégorie
         list_categorie = dict(data["Categorie"].value_counts())
         print("\nPar catégorie :")
@@ -351,7 +351,7 @@ class taskManager:
             plt.text(i, valeur + 0.2, str(valeur), ha='center', fontweight='bold')
         plt.title("Distribution des tâches")
         plt.show()
-    def nbr_taches_par_statut_et_priorité(self):
+    def nbr__par_statut_et_priorité(self):
         #verifier l'existence des tasks
         data = self.storage
         if not self.tasks:
@@ -446,7 +446,7 @@ class taskManager:
                  text=nombres, title="Distribution des tâches")
         fig.update_traces(textposition='outside')
         st.plotly_chart(fig)
-    def nbr_taches_par_statut_et_priorité1(self):
+    def nbr__par_statut_et_priorité1(self):
         #verifier l'existence des tasks
         data = Storage_Manager.charger_donner()
         if not self.tasks:
