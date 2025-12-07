@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import plotly.express as px
 class Storage_Manager:
-    path_fichier="E:\\anas\\Ingenierie\\Streamlit-tutorial\\pages\\taches.csv"
+    path_fichier="pages/taches.csv"
     @classmethod
     def sauvegarder(cls, tache):
         try:
@@ -77,9 +77,9 @@ class Storage_Manager:
             print(f"Erreur lors du chargement des données : {e}")
 def generer_id_suivant():
     try:
-        if not os.path.exists("E:\\anas\\Ingenierie\\Streamlit-tutorial\\pages\\taches.csv") or os.path.getsize("E:\\anas\\Ingenierie\\Streamlit-tutorial\\pages\\taches.csv") == 0:
+        if not os.path.exists("pages/taches.csv") or os.path.getsize("pages/taches.csv") == 0:
             return 1
-        data = pd.read_csv("E:\\anas\\Ingenierie\\Streamlit-tutorial\\pages\\taches.csv")
+        data = pd.read_csv("pages/taches.csv")
         if data.empty or "ID" not in data.columns:
             return 1
         ctr = max(data["ID"])
