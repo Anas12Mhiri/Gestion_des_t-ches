@@ -490,7 +490,7 @@ m=taskManager()
 #affiche les taches selon
 taches_afficher = st.selectbox("Selectioner la façon d'affichage", ["","Statut", "Priorite", "Date_echeance"])
 data = m.afficher_taches(taches_afficher)
-data = pd.read_csv(file)
+data = pd.read_csv("pages/taches.csv")
 st.write(data)
 #st.write(data.loc[:,data.columns !="id"])
 """if taches_afficher:  # Check if something was selected
