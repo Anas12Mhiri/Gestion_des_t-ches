@@ -285,8 +285,8 @@ class taskManager:
     
     def tache_echeance_aujourdhui(self):
         today = date.today()
-         = [t for t in self.tasks if t.date_echeance==today and t.statut!="Terminé"]
-        if not :
+        taches= [t for t in self.tasks if t.date_echeance==today and t.statut!="Terminé"]
+        if not taches:
             print("aucune tache n'echoit aujourd'hui")
         else:
             print(f"{len()}  echeent aujourd'hui")    
