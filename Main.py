@@ -63,8 +63,7 @@ class Storage_Manager:
     @classmethod
     def charger_donner(cls):
         try:
-            if not os.path.exists(cls.path_fichier):
-                raise FileNotFoundError("Le fichier des tâches n’existe pas encore.")
+            
             with open(cls.path_fichier, "r", newline="", encoding="utf-8") as file:
                 lire = csv.DictReader(file)
                 lignes = list(lire)
@@ -139,8 +138,7 @@ class taskManager:
     def charger_toutes_taches(self):
         try:
             data = self.storage
-            if data is None:
-                return
+            
             self.tasks = []
             for _, ligne in data.iterrows():
                 t = task(titre=ligne['Titre'],
@@ -198,8 +196,7 @@ class taskManager:
             print(f"Erreur lors de l’affichage des tâches : {e}")    
     def modifier_tache(self,i,mod,m):
         t=self.rechercher_par_id(i)
-        if t is None:
-            print("Tâche n'existe pas")
+        
             return
         if mod=="Titre": 
             t.titre=m
@@ -221,8 +218,7 @@ class taskManager:
             return
         #sauvegarde dans csv
         try:
-            if not os.path.exists(Storage_Manager.path_fichier):
-                raise FileNotFoundError("Le fichier des tâches est introuvable.")
+            
             #lire toutes les lignes
             with open(Storage_Manager.path_fichier, "r", newline="", encoding="utf-8") as file:
                 lire = csv.DictReader(file)
