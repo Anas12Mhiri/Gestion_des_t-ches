@@ -495,8 +495,8 @@ m=taskManager()
 
 #affiche les taches selon
 taches_afficher = st.selectbox("Selectioner la façon d'affichage", ["","Statut", "Priorite", "Date_echeance"])
-#data = m.afficher_taches(taches_afficher)
-st.write(data.loc[:,data.columns !="id"])
+data = m.afficher_taches(taches_afficher)
+#st.write(data.loc[:,data.columns !="id"])
 if taches_afficher:  # Check if something was selected
     data = m.afficher_taches(taches_afficher)
     st.write(data.loc[:, data.columns != "id"])
