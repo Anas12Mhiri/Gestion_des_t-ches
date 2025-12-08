@@ -76,7 +76,7 @@ class Storage_Manager:
             print(f"Erreur lors du chargement des données : {e}")
 def generer_id_suivant():
     try:
-        if not os.path.exists("pages/taches.csv") or os.path.getsize("pages/taches.csv") == 0:
+        if not os.path.exists(Storage_Manager.path_fichier) or os.path.getsize(Storage_Manager.path_fichier) == 0:
             return 1
         data = pd.read_csv("pages/taches.csv")
         if data.empty or "ID" not in data.columns:
