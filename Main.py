@@ -6,7 +6,7 @@ st.set_page_config(
 )
 st.write("# Ma TODO")
 
-st.sidebar.success("Select Demo above.")
+st.sidebar.success("Merci de choisir Ma TODO :grin:")
 
 
 
