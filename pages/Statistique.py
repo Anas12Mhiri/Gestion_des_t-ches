@@ -467,7 +467,8 @@ class taskManager:
 
 
 m=taskManager()
-st.markdown("<h2 style='text-align: center;'>📈 Les Statistiques</h2>", unsafe_allow_html=True)
+
+st.markdown("<h2>📈 Les Statistiques</h2>", unsafe_allow_html=True)
 #visualisation du data
 file = "pages/taches.csv"
 if file is not None:
