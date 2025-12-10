@@ -473,7 +473,7 @@ st.markdown("<h2>📈 Les Statistiques</h2>", unsafe_allow_html=True)
 file = "pages/taches.csv"
 if file is not None:
     data = pd.read_csv(file)
-    columns_to_show = st.multiselect("Select columns to show", data.columns.to_list(), default=data.columns.to_list())
+    columns_to_show = st.multiselect("Selectionner une colonne", data.columns.to_list(), default=data.columns.to_list())
     st.write(data[:][columns_to_show])
     dataframe = pd.DataFrame(data)
 
