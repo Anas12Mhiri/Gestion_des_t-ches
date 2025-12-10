@@ -479,7 +479,7 @@ class taskManager:
 
 
 m=taskManager()
-
+st.write("# :arrows_clockwise: Modifier une tâche")
 # Charger les titres existants depuis le CSV
 if m.storage is not None and "Titre" in m.storage.columns:
     titre1_list = m.storage["Titre"].dropna().tolist()
