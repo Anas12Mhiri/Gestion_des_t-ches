@@ -480,7 +480,7 @@ class taskManager:
 
 m=taskManager()
 
-st.write("#:notebook: Ajouter une tâche")
+st.write("# :notebook: Ajouter une tâche")
 titre = st.text_input("Donner le titre de votre tâche", placeholder="Titre")
 description = st.text_input("Donner une description", placeholder="Description") 
 date_echeance = st.date_input("Entrer la date d\'echeance")
