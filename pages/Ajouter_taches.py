@@ -479,8 +479,7 @@ class taskManager:
 
 
 m=taskManager()
-
-st.markdown("<h2 style='text-align: center;'>:notebook: Ajouter une tâche</h2>", unsafe_allow_html=True)
+st.write("# :notebook: Ajouter une tâche")
 titre = st.text_input("Donner le titre de votre tâche", placeholder="Titre")
 description = st.text_input("Donner une description", placeholder="Description") 
 date_echeance = st.date_input("Entrer la date d\'echeance")
