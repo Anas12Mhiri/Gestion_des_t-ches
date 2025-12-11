@@ -513,4 +513,28 @@ elif Chercher_taches == "Titre":
     tache_par_titre = st.text_input("", placeholder="Tapez le titre")
     titre_value = m.rechercher_tache_par_titre(tache_par_titre)
     st.write(titre_value)
+
+taches_retard = [t for t in m.tasks if t.est_en_retard()]
+if taches_retard:
+    # Afficher avec un style d'alerte
+    st.warning(f"🔴 Vous avez {len(taches_retard)} tâche(s) en retard !")
+    
+    # Convertir en DataFrame
+    taches_retard_data = []
+    for t in taches_retard:
+        jours_retard = (date.today() - t.date_echeance).days
+        taches_retard_data.append({
+            'ID': t.id,
+            'Titre': t.titre,
+            'Description': t.description,
+            'Date d\'échéance': t.date_echeance,
+            'Jours de retard': jours_retard,
+            'Priorité': t.priorite,
+            'Catégorie': t.categorie
+        })
+    
+    df_retard = pd.DataFrame(taches_retard_data)
+    st.dataframe(df_retard, use_container_width=True, hide_index=True)
+else:
+    st.success("✅ Aucune tâche en retard. Bon travail !")
 st.markdown("<style>.footer {position: fixed;bottom: 0;width: 100%;text-align: center;color: gray;font-size: 12px;}</style><div class='footer'> © 2025 Zaineb, Eya et Anas. Tous droits réservés.</div>",unsafe_allow_html=True)
