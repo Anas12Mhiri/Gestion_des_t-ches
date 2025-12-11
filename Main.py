@@ -6,7 +6,7 @@ st.set_page_config(
 )
 st.write("# Ma TODO")
 
-st.sidebar.success("Merci d’avoir choisi \nMa TODO :grin:")
+st.sidebar.success("Merci d’avoir choisi Ma TODO :grin:")
 
 
 
