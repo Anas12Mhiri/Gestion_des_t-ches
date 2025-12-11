@@ -479,7 +479,7 @@ class taskManager:
 
 
 m=taskManager()
-
+st.write("# 🗑️ Supprimer une tâche")
     
 # Charger les titres existants depuis le CSV
 if m.storage is not None and "Titre" in m.storage.columns:
