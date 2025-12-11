@@ -413,7 +413,6 @@ class taskManager:
         fig_status = px.pie(
         names=labels_priorite,
         values=valeurs_priorite,
-        title="Répartition par priorité",
         color_discrete_sequence=px.colors.sequential.Viridis
     )
         st.plotly_chart(fig_status)
@@ -423,7 +422,7 @@ class taskManager:
         list_categorie = dict(data["Categorie"].value_counts())
         labels = [i for i in list_categorie.keys()]
         valeurs = [i for i in list_categorie.values()] 
-        fig_status = px.pie(names=labels, values=valeurs, title="Répartition par catégorie", color_discrete_sequence=px.colors.sequential.Viridis)
+        fig_status = px.pie(names=labels, values=valeurs, color_discrete_sequence=px.colors.sequential.Viridis)
         st.plotly_chart(fig_status)
     def terminées_vs_À_faire1(self):
         #verifier l'existence des tasks
@@ -432,9 +431,7 @@ class taskManager:
         nb_a_faire = sum(data['Statut']=="À faire")
         statuts = ['Terminé', 'À faire']
         nombres = [nb_terminees, nb_a_faire]
-        fig = px.bar(x=statuts, y=nombres, color=statuts,
-                 color_discrete_map={'Terminé': 'green', 'À faire': 'orange'},
-                 text=nombres, title="Distribution des tâches")
+        fig = px.bar(x=statuts, y=nombres, color=statuts, color_discrete_map={'Terminé': 'green', 'À faire': 'orange'}, text=nombres)
         fig.update_traces(textposition='outside')
         st.plotly_chart(fig)
     def nbr_taches_par_statut_et_priorité1(self):
@@ -449,7 +446,6 @@ class taskManager:
             color='Statut',
             barmode='group',
             color_discrete_map={'Terminé': 'green', 'À faire': 'orange'},
-            title="Distribution des priorités par statut",
             text='Nombre'
         )
 
